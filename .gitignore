@@ -1,54 +1,19 @@
+# Ignore virtual environment folder
 venv/
-# Byte-compiled / optimized / DLL files
+
+# Python cache files
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Virtual environment
-venv/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
 # Environment variables
 .env
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Logs and database
-*.log
-*.sqlite3
-
-# VS Code and other IDEs
+# VSCode settings
 .vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# PyInstaller
-*.spec
-
-# PyTorch specific
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.tflite
-
-# Test cache
-.tox/
-.coverage
-htmlcov/
-nosetests.xml
-coverage.xml
-*.cover
-
-# GitHub LFS suggestions (in case you start using it)
-*.lfsconfig
