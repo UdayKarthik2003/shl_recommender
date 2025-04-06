@@ -14,6 +14,7 @@ print(soup.title.text)  # or anything else you want to extract
 BASE_URL = "https://www.shl.com"
 CATALOG_URL = "https://www.shl.com/solutions/products/product-catalog/"
 
+
 def scrape_assessments():
     response = requests.get(CATALOG_URL)
     soup = BeautifulSoup(response.text, "html.parser")
