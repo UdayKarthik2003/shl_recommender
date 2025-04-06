@@ -1,0 +1,10 @@
+streamlit
+fastapi
+uvicorn
+sentence-transformers
+beautifulsoup4
+requests
+beautifulsoup4
+sentence-transformers
+pandas
+fastapi
